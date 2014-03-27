@@ -1,0 +1,25 @@
+.PlanBadge {
+  text-align: center;
+}
+
+.PlanBadge-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.PlanBadge-name {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #A59985;
+  line-height: 50px;
+}
+
+.PlanBadge--horizontal .PlanBadge-name  {
+  font-size: 30px;
+  line-height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}

@@ -1,0 +1,78 @@
+@keyframes Wheel {
+  from {
+    stroke-dashoffset: 110px;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.PlanWheels {
+  width: 50px;
+  height: 50px;
+}
+
+.PlanWheel {
+  fill: none;
+  stroke-dasharray: 110px, 110px;
+  stroke-dashoffset: 0;
+  stroke-width: 15px;
+  transition: stroke-dashoffset 1s ease-in-out;
+  transform: translateX(25px) translateY(25px) rotate(-90deg) translateX(-25px) translateY(-25px);
+}
+
+.PlanWheel.bronze {
+  stroke: #D9D4CB;
+}
+
+.PlanWheel.green {
+  stroke: var(green);
+}
+
+.PlanWheel.darkGreen {
+  stroke: #7C9457;
+}
+
+.PlanWheel.silver {
+  stroke: #CDCDCD;
+}
+
+.PlanWheel.darkSilver {
+  stroke: #B0B0B0;
+}
+
+.PlanWheel.gold {
+  stroke: #F5C866;
+}
+
+.PlanWheel.darkGold {
+  stroke: #E4AD35;
+}
+
+.PlanWheel.platinum {
+  stroke: #979797;
+}
+
+.PlanWheel.darkPlatinum {
+  stroke: #7A7A7A;
+}
+
+.PlanWheel.diamond {
+  stroke: #3E3F3A;
+}
+
+.PlanWheel.quarter {
+  stroke-dashoffset: 83.5;
+}
+
+.PlanWheel.half {
+  stroke-dashoffset: 57;
+}
+
+.PlanWheel.threeQuarter {
+  stroke-dashoffset: 30.5;
+}
+
+.PlanWheel.empty {
+  stroke-dashoffset: 110px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "plan-icons",
+  "styles": [
+    "lib/badge.css",
+    "lib/icon.css",
+    "lib/wheel.css"
+  ],
+  "images": [
+    "images/bronze.svg",
+    "images/silver.svg",
+    "images/gold.svg",
+    "images/platinum.svg",
+    "images/diamond.svg",
+    "images/bronze-alt.svg",
+    "images/silver-alt.svg",
+    "images/gold-alt.svg",
+    "images/platinum-alt.svg",
+    "images/diamond-alt.svg"
+  ]
+}

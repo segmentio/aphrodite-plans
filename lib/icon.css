@@ -1,0 +1,56 @@
+.PlanIcon {
+  height: 50px;
+  width: 50px;
+  background: no-repeat center;
+}
+
+
+/**
+ * Plans
+ */
+
+.PlanIcon--developer {
+  background-image: url('../images/bronze-alt.svg');
+}
+
+.PlanIcon--project {
+  background-image: url('../images/silver-alt.svg');
+}
+
+.PlanIcon--startup {
+  background-image: url('../images/gold-alt.svg');
+}
+
+.PlanIcon--growth,
+.PlanIcon--business {
+  background-image: url('../images/platinum-alt.svg');
+}
+
+.PlanIcon--enterprise {
+  background-image: url('../images/diamond-alt.svg');
+}
+
+
+/**
+ * Colors
+ */
+
+.PlanIcon--bronze {
+  background-image: url('../images/bronze.svg');
+}
+
+.PlanIcon--silver {
+  background-image: url('../images/silver.svg');
+}
+
+.PlanIcon--gold {
+  background-image: url('../images/gold.svg');
+}
+
+.PlanIcon--platinum {
+  background-image: url('../images/platinum.svg');
+}
+
+.PlanIcon--diamond {
+  background-image: url('../images/diamond.svg');
+}

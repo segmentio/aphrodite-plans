@@ -16,10 +16,18 @@
   line-height: 50px;
 }
 
+.PlanBadge--horizontal {
+  text-align: left;
+}
+
 .PlanBadge--horizontal .PlanBadge-name  {
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 16px;
+  line-height: 1;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
+  margin-left: 5px;
+}
+
+.PlanBadge--horizontal > * {
+  vertical-align: middle;
 }

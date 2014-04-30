@@ -2,6 +2,12 @@
   height: 50px;
   width: 50px;
   background: no-repeat center;
+  background-size: contain;
+}
+
+.PlanIcon--small {
+  height: 30px;
+  width: 30px;
 }
 
 

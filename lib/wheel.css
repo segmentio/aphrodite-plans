@@ -26,7 +26,7 @@
 }
 
 .PlanWheel.green {
-  stroke: var(green);
+  stroke: var(--green);
 }
 
 .PlanWheel.darkGreen {

@@ -30,7 +30,7 @@
 }
 
 .PlanWheel.darkGreen {
-  stroke: #7C9457;
+  stroke: var(--darkest-green);
 }
 
 .PlanWheel.silver {

@@ -1,6 +1,6 @@
 {
   "name": "aphrodite-plans",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "styles": [
     "lib/badge.css",
     "lib/icon.css",
